@@ -1,0 +1,212 @@
+/* header */
+
+section{
+  background: #11338B;
+  height: 8em;
+  display: block;
+}
+ 
+.logo {
+  margin: 15px 0 0 30px;
+}
+
+
+/* navagation */
+
+a {
+  color: #11338b;
+}
+
+a:hover {
+  color: rgba(255,255,255,.4);
+  text-decoration: none;
+}
+
+dd a {
+  margin-left: 1.5em;
+}
+
+.nav-link {
+  color: #11338b;
+}
+
+.dropdown-item{
+  display: block;
+  padding: .5em;
+  color: #11338b;
+}
+
+/* headings */
+
+h1{
+  font-family:Avenir, sans-serif;
+  font-weight:100;
+  color: white;
+}
+
+/* body */
+
+article {
+  background: #dbd434;
+}
+
+.home figure {
+  display: inline-block;
+  width:45%;
+  margin: 3em;
+}
+
+.sidepic {
+  margin: 2em 3em 0 0;
+  float: right; 
+}
+
+.toppic {
+  margin-top:-14px;
+}
+
+.pipepiling {
+  background: #11338B;
+}
+
+.pipepiling figure{
+  display: inline-block;
+  width:45%;
+  margin: 3em;
+}
+
+.pipepiling figure p {
+  padding-top: 1em;
+  color: white;
+}
+
+blockquote{
+  margin: 4em;
+}
+
+ .ssteel{
+   background: #919e9a;
+}
+
+.ssteel img{
+  margin: -7em 0 2em 2em;
+}
+
+.ssteel figure{
+    display: inline-block;
+  width:55%;
+  margin: 2em;
+}
+
+.arcsteel figure{
+    display: inline-block;
+  width:55%;
+  margin: 3em;
+ 
+}
+
+.arcsteel img {
+  margin-top:-11em;
+}
+
+.qcontrol {
+  background: #11338B;
+  color: white;
+  padding: 3em;
+}
+
+#map-canvas {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 15px;
+  border: 2px solid #fff;
+}
+
+.contact{
+  background: #919e9a;
+}
+
+.contact div{
+  padding: 3em;
+  display: inline-block;
+}
+
+ul {
+  text-decoration: none;
+}
+
+
+/*  Medium devices (tablets, smaller desktop) */
+@media (max-width: 1032px) { 
+
+  .home {
+    background: red;
+  }
+  
+  .pipepiling {
+    text-align: ;
+  }
+  
+  .pipepiling figure{
+    width: 80%;
+  }
+  
+  .pipepiling .sidepic{
+    display: none;
+  }
+  
+}
+
+ 
+@media (max-width: 861px) { 
+
+  .home {
+    background: green;
+  }
+  
+  .ssteel img{
+    display: none;
+  }
+  
+  .ssteel {
+    text-align: right;
+  }
+  
+  .ssteel figure {
+    width:90%;
+  }
+  
+  .arcsteel figure{
+    width:90%;
+  }
+  
+  .arcsteel img{
+    display: none;
+  }
+  
+} 
+
+@media (max-width: 544px) { 
+
+  .home{
+    background: orange;
+  }
+  
+  .home figure{
+    width: 90%;
+  }
+  
+  .home figure p {
+     margin-right: 1em;
+  }
+  
+  .toppic {
+    display: none;
+  }
+  
+  
+  .home img {
+    display: none;
+  }
+
+}
