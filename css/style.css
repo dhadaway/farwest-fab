@@ -61,6 +61,10 @@ article {
   float: right; 
 }
 
+.assidepic {
+  width: 300px;
+}
+
 .toppic {
   margin-top:-14px;
 }
