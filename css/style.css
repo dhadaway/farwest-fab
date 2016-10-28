@@ -37,15 +37,17 @@ article {
   background: #dbd434;
 }
 
+.headerimg{
+  width:100%;
+  
+}
+
 .home figure {
   display: inline-block;
   width:45%;
   margin: 3em;
 }
 
-.headerimg{
-  width:100%;
-}
 
 .hsidepic {
   margin: 2em 3em 0 0;
@@ -66,10 +68,6 @@ article {
 .toppic {
   margin-top:-14px;
   height: 100px;
-}
-
-.ssteelpic{
-  height: 300px;
 }
 
 .pipepiling {
@@ -93,15 +91,19 @@ blockquote{
 
  .ssteel{
    background: #919e9a;
+   
 }
 
-.ssteel img{
-  margin: -7em 0 2em 2em;
+.ssteelpic{
+  display: inline;
+  margin: -15em 0 2em 2em ;
+  height: 300px;
 }
+
 
 .ssteel figure{
     display: inline-block;
-  width:42%;
+  width:40%;
   margin: 2em;
 }
 
