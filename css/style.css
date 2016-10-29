@@ -39,7 +39,7 @@ article {
 
 .headerimg{
   width:100%;
-  
+  margin-top:3em;
 }
 
 .home figure {
@@ -59,6 +59,7 @@ article {
   margin: 2em 3em 0 0;
   float: right; 
   height: 300px;
+  width: 200px;
 }
 
 .assidepic {
