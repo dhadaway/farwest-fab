@@ -134,6 +134,8 @@ blockquote{
 
 .contact{
   background: #919e9a;
+  width: 50%;
+  display: inline-block;
 }
 
 .contact div{
@@ -142,11 +144,26 @@ blockquote{
 }
 
 dd a:hover {
-  color: white;
+  color: rgba(225,225,225, .8);
 }
 
 ul {
   text-decoration: none;
+}
+
+dl{
+  width: 60%;
+}
+
+dt {
+  padding:.2em;
+}
+
+
+iframe {
+  display: inline-block;
+  width: 49%;
+  height: 540px;
 }
 
 
