@@ -50,7 +50,7 @@ article {
 
 
 .hsidepic {
-  margin: 2em 3em 0 0;
+  margin: 2em 3em 2em 0;
   float: right; 
   height:200px;
 }
@@ -62,9 +62,6 @@ article {
   width: 200px;
 }
 
-.assidepic {
-  width: 300px;
-}
 
 .toppic {
   margin-top:-14px;
@@ -92,32 +89,34 @@ blockquote{
 
  .ssteel{
    background: #919e9a;
-   
+}
+
+.ssteel figure{
+  display: inline-block;
+  width:50%;
+  margin: 2em;
 }
 
 .ssteelpic{
   display: inline;
-  margin: -15em 0 2em 2em ;
   height: 300px;
+  margin: -10em 2em 2em 2em;
 }
 
 
-.ssteel figure{
-    display: inline-block;
-  width:40%;
-  margin: 2em;
-}
 
 .arcsteel figure{
-    display: inline-block;
+  display: inline-block;
   width:55%;
   margin: 3em;
- 
 }
 
-.arcsteel img {
-  margin-top:-11em;
+.arcsidepic {
+  width: 300px;
+  margin: -20% 3em 0 0;
 }
+
+
 
 .qcontrol {
   background: #11338B;
@@ -256,9 +255,6 @@ iframe {
     width: 90%;
   }
   
-  .home figure p {
-     margin-right: 1em;
-  }
   
   .toppic {
     display: none;
