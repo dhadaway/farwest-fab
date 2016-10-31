@@ -7,16 +7,14 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: grey;
 }
 
-.nav-link {
-  color: #11338b;
-}
 
 .dropdown-item{
   display: block;
   padding: .5em;
-  color: #11338b;
+  
 }
 
 /* headings */
@@ -38,28 +36,36 @@ article {
   margin-top:3em;
 }
 
+.home {
+  position: relative;
+  display: flex;
+}
+
 .home figure {
   display: inline-block;
-  width:45%;
+  width:60%;
   margin: 3em;
 }
+
+.hsidepic { 
+  width: 40%;
+  height: 40%;
+  position: absoulte;
+  display: inline;
+  margin: 0 -2em 0 0;
+  border: 3px solid white;
+} 
 
   .tabletpic{
     display: none;
   }
-
-
-.hsidepic {
-  margin: 2em 3em 2em 0;
-  float: right; 
-  height:200px;
-}
 
 .ppsidepic {
   margin: 2em 3em 0 0;
   float: right; 
   height: 300px;
   width: 200px;
+  border: 3px solid grey;
 }
 
 
@@ -88,22 +94,28 @@ blockquote{
 }
 
  .ssteel{
-   background: #919e9a;
+   background: #919e9a; 
+   position: relative;
+   display: flex;
 }
 
-.ssteel figure{
+.ssteel figure {
   display: inline-block;
   width:50%;
-  margin: 2em;
+  margin: 2em 2em 2em 34em;
 }
 
 .ssteelpic{
   display: inline;
-  height: 300px;
-  margin: -10em 2em 2em 2em;
+  height: 100%;
+  margin: 0;
+  position: absolute;
 }
 
-
+.arcsteel {
+  positon: relative;
+  display: flex;
+}
 
 .arcsteel figure{
   display: inline-block;
@@ -112,10 +124,12 @@ blockquote{
 }
 
 .arcsidepic {
-  width: 300px;
-  margin: -20% 3em 0 0;
+  width: auto;
+  height: 100%;
+  position: absoulte;
+  display: inline;
+  margin: 0; 
 }
-
 
 
 .qcontrol {
@@ -187,6 +201,13 @@ iframe {
   
   .pipepiling .ppsidepic{
     display: none;
+  }
+  
+  .ssteelpic {
+    margin: 0 auto;
+    padding: 2em;
+    width: 40%;
+    height: auto;
   }
   
 }
