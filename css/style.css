@@ -28,6 +28,10 @@ h1{
   text-align: center;
 }
 
+.qch {
+  text-align: left;
+}
+
 /* lists */
 
 figure li {
@@ -52,8 +56,21 @@ dt {
   padding:.2em;
 }
 
-.pplist {
+.wlist {
   color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 1em;
+  font-family: 'Palanquin', sans-serif;
+  font-weight:100;
+}
+
+.blist{
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 1em;
+  font-family: 'Palanquin', sans-serif;
+  font-weight:100;
 }
 
 
@@ -75,7 +92,7 @@ article {
 
 .home figure {
   display: inline-block;
-  width:60%;
+  width: 60%;
   margin: 3em;
 }
 
@@ -85,7 +102,7 @@ article {
   position: absoulte;
   display: inline;
   margin: 0 -2em 0 0;
-  border: 3px solid white;
+/*   border: 3px solid white; */
 } 
 
   .tabletpic{
@@ -140,6 +157,59 @@ blockquote{
   position: absolute;
 }
 
+.picblock{
+  background: white;
+  text-align: center;
+}
+
+.blockimg{
+  margin: 3em;
+}
+
+.photo-box {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 2em;
+	width:100%;
+	height:auto;
+	text-align:center;
+	overflow: hidden;
+}
+
+.photo-box p {
+	line-height:22px;
+	padding:0px 15px;
+	max-width:420px;
+	text-align:center;
+}
+
+.photo-overlay {
+  	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex; /* For centering text inside .photo-overlay */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0, .7);
+}
+
+/* transitions for photo-overlay */
+
+.photo-overlay {
+	opacity: 0;
+	transition: opacity .4s;
+}
+.photo-overlay:hover {
+	opacity: 1;
+}
+
+
 .arcsteel {
   positon: relative;
   display: flex;
@@ -164,6 +234,12 @@ blockquote{
   background: #11338B;
   color: white;
   padding: 3em;
+}
+
+.midpic{
+  display: block;
+  width: 100%;
+  margin-top: ;
 }
 
 section {
@@ -302,15 +378,5 @@ iframe {
   .home img {
     display: none;
   }
-
-}
-
-.trial {
-  color: white;
-  font-size: 1.5em;
-  text-align: center;
-  padding-top: 1em;
-  font-family: 'Palanquin', sans-serif;
-  font-weight:100;
 
 }
