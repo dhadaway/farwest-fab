@@ -28,7 +28,7 @@ h1{
   text-align: center;
 }
 
-.qch {
+.l-sideheader {
   text-align: left;
 }
 
@@ -99,13 +99,18 @@ article {
 
 .home figure {
   display: inline-block;
-  width: 70%;
+  width: 90%;
   margin: 3em;
+  padding: 1em;
+}
+
+.lead{
+  font-size:2em;
 }
 
 .hsidepic { 
-  width: 40%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
   position: absoulte;
   display: inline;
   margin: 0;
@@ -129,7 +134,7 @@ article {
 
 .pipepiling figure{
   display: inline-block;
-  width:55%;
+  width:100%;
   margin: 4em;
 }
 
@@ -141,10 +146,6 @@ article {
   transform: rotateZ(180deg);
 }
 
-blockquote{
-  margin: 4em;
-}
-
  .ssteel{
    background: #919e9a; 
    position: relative;
@@ -153,13 +154,13 @@ blockquote{
 
 .ssteel figure {
   display: inline-block;
-  width:50%;
+  width:100%;
   margin: 3em 3em 3em 34em;
 }
 
 .ssteelpic{
   display: inline;
-  height: 100%;
+  height: 120%;
   margin: 0;
   position: absolute;
 }
