@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin:100,400');
 
 /* navagation */
 
@@ -23,6 +24,8 @@ h1{
   font-family:Avenir, sans-serif;
   font-weight:100;
   color: white;
+  font-size:3.5em;
+  text-align: center;
 }
 
 /* lists */
@@ -103,7 +106,7 @@ article {
 .pipepiling figure{
   display: inline-block;
   width:55%;
-  margin: 3em;
+  margin: 4em;
 }
 
 .ppsidepic { 
@@ -127,7 +130,7 @@ blockquote{
 .ssteel figure {
   display: inline-block;
   width:50%;
-  margin: 2em 2em 2em 34em;
+  margin: 3em 3em 3em 34em;
 }
 
 .ssteelpic{
@@ -145,12 +148,12 @@ blockquote{
 .arcsteel figure{
   display: inline-block;
   width:55%;
-  margin: 3em;
+  margin: 4em;
 }
 
 .arcsidepic {
-  width: auto;
-  height: 100%;
+  width: 40%;
+  height: 40%;
   position: absoulte;
   display: inline;
   margin: 0; 
@@ -299,5 +302,15 @@ iframe {
   .home img {
     display: none;
   }
+
+}
+
+.trial {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 1em;
+  font-family: 'Palanquin', sans-serif;
+  font-weight:100;
 
 }
