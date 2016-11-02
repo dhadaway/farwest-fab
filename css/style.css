@@ -73,6 +73,13 @@ dt {
   font-weight:100;
 }
 
+.list-group {
+  display: inline;
+}
+
+.list-group2{
+  display: inline;
+}
 
 /* body */
 
@@ -92,7 +99,7 @@ article {
 
 .home figure {
   display: inline-block;
-  width: 60%;
+  width: 70%;
   margin: 3em;
 }
 
@@ -101,7 +108,7 @@ article {
   height: 40%;
   position: absoulte;
   display: inline;
-  margin: 0 -2em 0 0;
+  margin: 0;
 /*   border: 3px solid white; */
 } 
 
@@ -157,21 +164,20 @@ blockquote{
   position: absolute;
 }
 
-.picblock{
-  background: white;
-  text-align: center;
-}
 
-.blockimg{
-  margin: 3em;
+
+/* photo block */
+
+.col-md-4 {
+  background: white;  
 }
 
 .photo-box {
 	position: relative;
 	line-height: 0;
-	margin-bottom: 2em;
-	width:100%;
-	height:auto;
+	margin: 2em;
+	width:300px;
+	height:300px;
 	text-align:center;
 	overflow: hidden;
 }
@@ -183,9 +189,12 @@ blockquote{
 	text-align:center;
 }
 
+/* photo overlay */
 .photo-overlay {
-  	color: #fff;
+  color: #fff;
 	position: absolute;
+  height: 300px;
+  width: 300px;
 	top: 0;
 	right: 0;
 	bottom: 0; 
@@ -212,12 +221,12 @@ blockquote{
 
 .arcsteel {
   positon: relative;
-  display: flex;
+/*   display:flex; */
 }
 
 .arcsteel figure{
   display: inline-block;
-  width:55%;
+  width:40%;
   margin: 4em;
 }
 
@@ -227,6 +236,7 @@ blockquote{
   position: absoulte;
   display: inline;
   margin: 0; 
+  float: right;
 }
 
 
@@ -234,6 +244,10 @@ blockquote{
   background: #11338B;
   color: white;
   padding: 3em;
+}
+
+.qcontrol figure{
+  margin:3em;
 }
 
 .midpic{
@@ -246,16 +260,9 @@ section {
   position: relative;
 }
 
-#map-canvas {
-  width: 100%;
-  height: 300px;
-  margin-bottom: 15px;
-  border: 2px solid #fff;
-}
-
 .contact{
   background: #919e9a;
-  width: 50%;
+  width: 60%;
   display: inline-block;
 }
 
@@ -267,7 +274,7 @@ section {
 
 iframe {
   display: inline-block;
-  width: 50%;
+  width: 40%;
   height: 100%;
   position: absolute;
 }
@@ -379,4 +386,10 @@ iframe {
     display: none;
   }
 
+}
+
+/* bootstrap overrides */
+
+.container-fluid {
+  padding: 0 0 0 0 !important;
 }
