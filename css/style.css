@@ -115,8 +115,8 @@ article {
   padding: 1em;
 }
 
-.lead{
-  font-size:2em;
+.lead {
+  font-size: ;
 }
 
 .hsidepic { 
@@ -482,6 +482,9 @@ iframe {
     width:90%;
   }
     
+  .col-md-4, .photo-box, .photo-overlay {
+    display: none;
+  }
   
   .arcsteel figure{
     width: 100%;
