@@ -292,7 +292,7 @@ article {
 
 .ssteelpic{
   display: inline;
-  height: 120%;
+  height: 100%;
   margin: 0;
   position: absolute;
 }
@@ -300,10 +300,6 @@ article {
 
 
 /* photo block */
-
-.trial{
-    height: 100%;
-}
 
 .col-md-4 {
   background: white;  
@@ -313,8 +309,6 @@ article {
 	position: relative;
 	line-height: 0;
 	margin: 3em 0;
-	width:300px;
-	height:300px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -335,8 +329,7 @@ article {
 .photo-overlay {
   color: #fff;
 	position: absolute;
-  height: 300px;
-  width: 300px;
+  margin: 0 auto;
 	top: 0;
 	right: 0;
 	bottom: 0; 
