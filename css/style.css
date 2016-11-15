@@ -205,7 +205,7 @@ dd{
 /* body */
 
 article {
-  background: #FFE031;
+  background: #edcd1f;
 }
 
 .headerimg{
@@ -295,6 +295,7 @@ article {
   height: 100%;
   margin: 0;
   position: absolute;
+  object-fit: cover;
 }
 
 
