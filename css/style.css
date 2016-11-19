@@ -51,12 +51,17 @@ figure li {
   font-size: 1.1em;
 }
 
-dd a {
+dd a, .djh {
   color:#11338b;
 }
 
 dd a:hover {
   color: rgba(225,225,225, .8);
+  text-decoration: none;
+}
+
+.djh:hover{
+    color: rgba(225,225,225, .8);
   text-decoration: none;
 }
 
@@ -365,7 +370,7 @@ article {
 
 .arcsteel figure{
   display: inline-block;
-  width:40%;
+  width:45%;
   margin: 4em;
 }
 
