@@ -675,31 +675,3 @@ iframe {
   overflow: hidden;
   margin-right: 15px;
 }
-
-/*gallery */
-
-h1{
-  text-align: left;
-}
-
-.headertext{
-  color: white;
-	background: #11338B;
-}
-
-body {
-	padding-top: 70px;
-}
-
-h2{
-  margin-top:1em;
-}
-
-figcaption{
-  font-size:1.1em;
-  padding:0 5px;
-}
-
-.padding{
-  padding-top:16px;
-}
