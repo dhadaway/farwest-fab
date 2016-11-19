@@ -265,8 +265,12 @@ article {
 .pipepiling figure{
   display: inline-block;
   width:100%;
-  margin: auto;
-  padding: 3em;
+  margin: auto 2em;
+  padding: 0 3em;
+}
+
+.pipepiling figure p {
+  margin-top:1em;
 }
 
 .ppsidepic {
@@ -364,7 +368,7 @@ article {
 
 .arcsteel {
   positon: relative;
-/*   display:flex; */
+
 }
 
 .arcsteel figure{
@@ -454,6 +458,10 @@ iframe {
 
 @media (max-width: 1305px){
 
+  .pipepiling figure {
+    padding: 2em;
+  }
+  
   .ppsidepic{
     display: none;
   }
