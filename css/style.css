@@ -294,7 +294,7 @@ dd a:hover{
 }
 
 iframe{
-  padding-right: 0 !important;
+  padding: 0 !important;
   height:600px;
   display: inline-block;
 }
