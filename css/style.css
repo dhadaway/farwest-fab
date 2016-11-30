@@ -338,6 +338,9 @@ iframe{
 /*  Small devices (landscape phones, 544px and up) (col-xs) */
 @media (min-width: 544px) {
 
+  html{
+    margin:0;
+  }
 
   .building{
     width: 100%;
