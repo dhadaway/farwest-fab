@@ -321,6 +321,11 @@ iframe{
     display: none;
   }
 
+  .headertext{
+  color: white;
+  background: #11338B;
+}
+
 /*  typography  */
 
   .lead {
