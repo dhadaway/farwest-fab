@@ -366,6 +366,10 @@ iframe{
     font-size:1.2em;
   }
 
+  .ssteel-p{
+    padding-right:1em;
+  }
+
   /* top buttom */
 
   .back-to-top {
@@ -445,6 +449,11 @@ iframe{
   .pipepiling p {
     text-align: center;
   }
+
+  .ssteel-p{
+    padding-right:0;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
