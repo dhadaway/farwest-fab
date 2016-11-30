@@ -303,35 +303,35 @@ iframe{
 /* media queries */
 
 /*  Small devices (landscape phones, 544px and up) (col-xs) */
-@media (min-width: 544px) { 
+@media (min-width: 544px) {
 
   .building{
     width: 100%;
   }
-  
+
   .pp-pic{
     display: none;
   }
-  
+
    .ssteelpic{
     display: none;
   }
-  
+
   .arcsidepic{
     display: none;
   }
-  
+
 /*  typography  */
-  
+
   .lead {
     font-size: 1.4em;
     margin-top: 1.5em;
   }
-  
+
   dt, dd {
     font-size:1.2em;
   }
-  
+
   /* top buttom */
 
   .back-to-top {
@@ -352,65 +352,65 @@ iframe{
   cursor: pointer;
   background: grey;
 }
-  
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 
   .back-to-top {
     display: none;
   }
-  
+
 /*  images  */
-  
+
    .building{
-    display: none;  
+    display: none;
   }
-  
+
   .building-2{
     display: block;
     width: 100%;
     margin-top: 1em;
   }
-  
+
   img {
     padding:0 !important;
   }
-  
+
   .ssteelpic{
     display: none;
   }
-  
+
   .arcsidepic{
     display: none;
   }
-  
+
 /* typography  */
-  
+
   .home p{
     margin:
   }
-  
+
   .p2 {
     width: 100%;
   }
-  
+
   .contact h1 {
     text-align: left;
     padding-left: 1em;
   }
-  
+
   .ssteel h1{
     text-align: center;
   }
-  
+
   .pipepiling p {
     text-align: center;
   }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 
 /*  articles  */
 
@@ -418,8 +418,8 @@ iframe{
 
   .pp-long{
     width: 100%;
-  }  
-  
+  }
+
   .ssteelpic{
     display: inline-block;
   }
@@ -428,47 +428,70 @@ iframe{
     display: inline-block;
   }
 /*  typography  */
-  
+
   h1, h2{
     font-size: em;
   }
 
-  
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 
     .pp-pic{
     width: 50%;
     padding: 0;
       display: inline-block;
   }
-  
+
   .pp-long{
     display: none;
   }
-  
+
   }
-  
+
   @media (min-width: 1500px){
-        
+
     h1, h2 {
       font-size: 5em;
     }
-    
+
     p{
       font-size: 2em;
     }
-    
+
   }
-  
+
 /* side margin problem fix */
   html,body {
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
-  
+
   html{
     margin: 0 5em;
   }
-  
+
+  /* gallery*/
+
+  .gallery-h1{
+    text-align: left;
+  }
+
+  .headertext{
+  color: white;
+	background: #11338B;
+}
+
+.gallery-body{
+ padding-top: 70px;
+}
+
+figcaption{
+  font-size:1.1em;
+  padding:0 5px;
+}
+
+.gallery-p{
+  margin-left:0;
+}
