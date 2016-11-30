@@ -314,6 +314,22 @@ iframe{
 
 
 /* media queries */
+@media (max-width:544px){
+
+  .pp-pic{
+    display: none;
+  }
+
+   .ssteelpic{
+    display: none;
+  }
+
+  .arcsidepic{
+    display: none;
+  }
+
+}
+
 
 /*  Small devices (landscape phones, 544px and up) (col-xs) */
 @media (min-width: 544px) {
