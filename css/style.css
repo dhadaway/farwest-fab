@@ -358,7 +358,7 @@ iframe{
 /*  typography  */
 
   .lead {
-    font-size: 1.4em;
+    font-size: 1.5em;
     margin-top: 1.5em;
   }
 
@@ -397,7 +397,7 @@ iframe{
 @media (min-width: 768px) {
 
 .lead {
-font-size: 2em;
+font-size: 1.8em;
   }
 
   .back-to-top {
