@@ -65,9 +65,22 @@ p {
   vertical-align: middle;
 }
 
+.lead, .ssteel-p, .arcsteel-p {
+  color:black;
+}
+
+.lead{
+  font-size: 1.5em;
+}
+
 .ssteel-p{
   width: 90%;
 }
+
+.ssteel-h, .arcsteel-h{
+  color:black;
+}
+
 
 .qc-h{
   text-align: left;
@@ -367,6 +380,9 @@ iframe{
     display: none;
   }
 
+  .back-to-top:hover{
+    display: none
+  }
 /*  images  */
 
    .building{
