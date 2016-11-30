@@ -316,6 +316,10 @@ iframe{
 /* media queries */
 @media (max-width:544px){
 
+  html{
+    margin:0;
+  }
+
   .pp-pic{
     display: none;
   }
@@ -333,6 +337,7 @@ iframe{
 
 /*  Small devices (landscape phones, 544px and up) (col-xs) */
 @media (min-width: 544px) {
+
 
   .building{
     width: 100%;
@@ -395,6 +400,11 @@ iframe{
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
+  html{
+    margin: 0 5em;
+  }
+
 
 .lead {
 font-size: 1.8em;
@@ -517,10 +527,6 @@ font-size: 1.8em;
   html,body {
     overflow-x: hidden;
 }
-
-  html{
-    margin: 0 5em;
-  }
 
   /* gallery*/
 
