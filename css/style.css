@@ -124,7 +124,7 @@ p {
 /* links and lists */
 
 .list-group{
-  padding-left: 50px
+  padding-left: 50px;
   margin-bottom: 10px;
 }
 
@@ -508,7 +508,7 @@ font-size: 1.8em;
 
    .wob-logo {
      display: block;
-     margin-left: 20px;
+     margin-left: 50px;
    }
 /*  typography  */
 
