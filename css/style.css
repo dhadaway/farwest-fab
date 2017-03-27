@@ -455,6 +455,14 @@ font-size: 1.8em;
     display: none;
   }
 
+  .wob-logo-2{
+    display:none;
+   }
+
+   .wob-logo {
+     display: block;
+     margin-left: 20px;
+   }
 /* typography  */
 
   .home p{
