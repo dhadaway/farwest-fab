@@ -125,6 +125,7 @@ p {
 
 .list-group{
   padding-left: 50px
+  margin-bottom: 10px;
 }
 
 dd{
@@ -454,13 +455,8 @@ font-size: 1.8em;
     display: none;
   }
 
-  .wob-logo-2{
-    display: none
-  }
-
   .wob-logo{
-    display: block;
-    margin-left:50px;
+    display: none;
   }
 
 /* typography  */
