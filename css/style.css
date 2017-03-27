@@ -342,6 +342,10 @@ iframe{
     display: none;
   }
 
+  .dbe-logo-2 {
+    height: 120px;
+  }
+
 }
 
 
@@ -375,6 +379,7 @@ iframe{
   .wob-logo-2{
     float: right;
     margin-top:-140px;
+    margin-left: 50px;
   }
 
   .dbe-logo{
