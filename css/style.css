@@ -121,7 +121,7 @@ p {
 }
 
 .wob-logo{
-  paddig-left:50px;
+  margin-left:50px;
 }
 
 /* links and lists */
@@ -360,6 +360,14 @@ iframe{
 
   .arcsidepic{
     display: none;
+  }
+
+  .wob-logo{
+    display: none;
+  }
+
+  .wob-logo-2{
+    text-align: right;
   }
 
   .headertext{
