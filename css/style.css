@@ -349,6 +349,7 @@ iframe{
     height: 120px;
     margin-bottom: 20px;
     margin-right: 50px;
+    margin-left: 50px;
   }
 
 }
@@ -398,6 +399,7 @@ iframe{
     margin-bottom: 20px;
     margin-top: -275px;
     margin-right: 50px;
+    margin-left: 50px;
   }
 
   .headertext{
@@ -549,6 +551,7 @@ font-size: 1.8em;
    .dbe-logo{
      display: block;
      height: 120px;
+     margin-left: 50px;
    }
 
 /*  typography  */
