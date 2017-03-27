@@ -367,7 +367,8 @@ iframe{
   }
 
   .wob-logo-2{
-    text-align: right;
+    float: right;
+    margin-top:-140px;
   }
 
   .headertext{
@@ -456,6 +457,14 @@ font-size: 1.8em;
     display: none;
   }
 
+  .wob-logo-2{
+    display: none
+  }
+
+  .wob-logo{
+    display: block;
+  }
+  
 /* typography  */
 
   .home p{
