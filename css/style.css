@@ -120,9 +120,6 @@ p {
   margin-right: 2em;
 }
 
-.wob-logo{
-  margin-left:50px;
-}
 
 /* links and lists */
 
@@ -463,8 +460,9 @@ font-size: 1.8em;
 
   .wob-logo{
     display: block;
+    margin-left:50px;
   }
-  
+
 /* typography  */
 
   .home p{
