@@ -369,6 +369,15 @@ iframe{
     margin-top:-140px;
   }
 
+  .dbe-logo{
+    display: none;
+  }
+
+  .dbe-logo-2{
+    float: right;
+    height: 50px;
+  }
+
   .headertext{
   color: white;
   background: #11338B;
